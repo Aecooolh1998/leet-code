@@ -1,6 +1,3 @@
-n = [1,2,3,4,5,6]
-t = 11
-
 def two_sum(nums, target):
     """
     :type nums: List[int]
@@ -14,5 +11,3 @@ def two_sum(nums, target):
             return [d[m],i]
         else:
             d[num]=i
-
-print(two_sum(n, t))
